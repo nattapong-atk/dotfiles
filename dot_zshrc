@@ -138,6 +138,8 @@ alias ssh-rukcom="ssh 3106@gate.manage.ruk-com.cloud -p 3022"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+export PATH=$PATH:/opt/homebrew/bin
+
 export PATH="/Users/nattapong-atk/.bun/bin:$PATH"
 # bun completions
 [ -s "/Users/nattapong-atk/.bun/_bun" ] && source "/Users/nattapong-atk/.bun/_bun"
